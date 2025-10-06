@@ -2,7 +2,9 @@
 
 def solve():
 # Ниже пишите решение задачи
-
+    n = int(input().strip())
+    n %= 1440
+    print(n // 60, n % 60)
    
 
    
